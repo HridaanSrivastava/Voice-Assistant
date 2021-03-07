@@ -60,5 +60,9 @@ def assistant():
         meaning = dict.meaning(word) 
         print(meaning)
         tts(meaning)
+    
+    elif "who are you" in rec:
+        print("I am python, your virtual assistant")
+        tts("I am python, your virtual assistant")
 
 assistant()
